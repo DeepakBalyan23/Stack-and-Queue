@@ -1,6 +1,7 @@
 package main;
 
 import questions.BalancedParanthesis;
+import questions.RainWaterTrapping;
 
 public class Main {
 
@@ -29,7 +30,8 @@ public class Main {
 //		BalancedParanthesis b = new BalancedParanthesis();
 //		System.out.println(b.isBalanced("[]"));
 		
-		
+		RainWaterTrapping r = new RainWaterTrapping();
+		System.out.println(r.totalWaterUsingStack(new int[]{2,1,0,4,10,0,0,10}));
 	}
 
 }
