@@ -1,7 +1,10 @@
 package main;
 
+import java.util.Arrays;
+
 import questions.BalancedParanthesis;
 import questions.RainWaterTrapping;
+import questions.SlidingWindowMaximum;
 
 public class Main {
 
@@ -30,8 +33,11 @@ public class Main {
 //		BalancedParanthesis b = new BalancedParanthesis();
 //		System.out.println(b.isBalanced("[]"));
 		
-		RainWaterTrapping r = new RainWaterTrapping();
-		System.out.println(r.totalWaterUsingStack(new int[]{2,1,0,4,10,0,0,10}));
+//		RainWaterTrapping r = new RainWaterTrapping();
+//		System.out.println(r.totalWaterUsingStack(new int[]{2,1,0,4,10,0,0,10}));
+		
+		SlidingWindowMaximum s =  new SlidingWindowMaximum();
+		System.out.println(Arrays.toString(s.maxElements(new int[] {8, 5, 10, 7, 9, 4, 15, 12, 90, 13}, 4)));
 	}
 
 }
